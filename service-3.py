@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-from re import U
 from nameko.rpc import rpc, RpcProxy
 
 class ExpandedGreeterService(object):

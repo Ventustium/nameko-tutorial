@@ -23,7 +23,8 @@ or open your browser using this url
 http://localhost:8000/multiply/3/4?thrid=3
 ```
 
--using service-2
+- using service-2, service-3 and client
 ```
-nameko_reloader run service-2 --reload
+nameko  run service-2 service-3
+python client.py
 ```
